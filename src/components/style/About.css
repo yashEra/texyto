@@ -47,7 +47,8 @@
 
     .team__members{
         flex-direction: column;
-        padding: 0 2% 0 2%;
+        width: 96%;
+        margin: 0 2% 0 2%;
     }
 
     .width__tile{

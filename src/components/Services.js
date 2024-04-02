@@ -11,7 +11,7 @@ import learning from "../images/learning.svg"
 
 const Services = () =>{
     return (
-        <div>
+        <div className='services__alignment'>
             <div className='services__raw'>
                 <div className='service__component'>
                     <img src={webDevelopment} alt={'web_development'}/>
