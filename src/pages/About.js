@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './Navbar';
-import HeaderTitle from './HeaderTitle';
-import Member from './Member';
-import Title from './Title';
-import Card from './Card';
-import CardReverse from './CardReverse';
-import Footer from './Footer';
+import Navbar from '../components/Navbar';
+import HeaderTitle from '../components/HeaderTitle';
+import Member from '../components/Member';
+import Title from '../components/Title';
+import Card from '../components/Card';
+import CardReverse from '../components/CardReverse';
+import Footer from '../components/Footer';
 import './style/About.css';
-import Services from './Services';
+import Services from '../components/Services';
 // import './App.css';
 
 
