@@ -13,7 +13,7 @@ const GraphicSolution = () => {
 
                     Good graphic design solutions can significantly impact a business's success by improving brand recognition, attracting new customers, and creating a positive impression of the company in the minds of existing and potential customers. Whether it's designing a logo, creating marketing materials, or developing a website, good graphic design plays a crucial role in communicating a business's values, products, and services effectively.
 
-                    At our company, we provide world-class graphic design solutions to help businesses achieve their goals in the digital marketplace. Our team of expert graphic designers can help create a unique and compelling brand identity that resonates with your target audience. With our help, your business can stand out in the digital landscape and achieve the success you deserve.</p><br/>
+                    </p><br/>
                 <h4>Graphic Design</h4>
                 <h4>Video Editing</h4>
                 <h4>Motion Graphic Design</h4>

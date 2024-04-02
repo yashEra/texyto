@@ -1,8 +1,9 @@
 .container {
+  max-width: 1220px;
     display: flex; 
     flex-wrap: wrap; 
     align-items: center; 
-    padding: 5%;
+    padding: 5% 0;
   }
   
   .image {
@@ -30,6 +31,7 @@
 
     .container{
       display: block;
+      margin: 0 5%;
     }
     
   }

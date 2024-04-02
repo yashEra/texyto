@@ -3,10 +3,13 @@
     background-color: #002147;
     padding-top: 5%;
     color: #c0c0c0;
+    display: flex;
+    justify-content: center;
 
 }
 
 .footer__components{
+    max-width: 1200px;
     display: flex;
     justify-content: space-around;
     
@@ -14,8 +17,9 @@
 
 .footer__column{
     width: 30%;
-    text-align: left;
+    text-align: center;
     list-style: none;
+    color: #c0c0c0;
 }
 
 .footer__column h2{
@@ -24,7 +28,9 @@
 
 .footer__column p{
     text-align: justify;
-    padding-top: 10%;
+    padding-top: 5%;
+    color: #c0c0c0;
+    text-align: center;
 }
 
 .fotter__bar{
@@ -55,6 +61,7 @@
 
 .footer__menu ul li{
     padding-bottom: 25px;
+    text-align: center;
 }
 .footer__menu ul li a:hover{
 

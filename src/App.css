@@ -20,17 +20,24 @@
   /* background-image: url('./components/heder.jpg'); */
   height: 100vh;
   width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-y: hidden;
 }
 
 .heder_cont{
+  max-width: 1200px;
+  margin-top: 90px;
   color: aliceblue;
   display: flex;
   justify-content: center;
   /* text-align: center; */
   /* align-items: center;
   justify-content: left; */
+
 
 }
 
@@ -44,12 +51,16 @@
 
 .hederText{
   
-  width: 50%;
+  width: 60%;
 
 }
 
 .maintext{
   font-size:  60px;
+}
+.subtext{
+  padding-top: 20px;
+  color: aliceblue;
 }
 .heder-image{
   padding-right: 5%;
@@ -95,6 +106,7 @@
   .heder_cont{
     /* color: aliceblue; */
     /* display: block; */
+    margin-top: 0;
     flex-direction: column;
     flex-direction: column-reverse;
 
@@ -140,6 +152,12 @@
   align-items: center;
   padding-bottom: 10%;
 }
+.about__welcomeText{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .about__text{
   width: 40%;
@@ -170,6 +188,13 @@
   width: auto;
 }
 
+.comp__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
 
   .about__welcome{
@@ -177,7 +202,9 @@
     /* flex-direction: column; */
     flex-direction: column-reverse;
   }
-
+.about__welcomeText{
+  flex-direction: column;
+}
   .about__text{
     width: 100%;
     padding-left: 5%;

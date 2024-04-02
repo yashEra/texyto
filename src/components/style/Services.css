@@ -57,12 +57,13 @@
 
 @media screen and (max-width: 1000px) {
     .services__alignment{
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .services__raw{
+        width: 96%;
+        margin-left: 4%;
         display: block;
         align-items: center;
         justify-content: center;
@@ -71,6 +72,9 @@
 
     .service__component{
         width: 90%;
+        margin: 1%;
+        margin-bottom: 5%;
+        /* background-color: #002147; */
     }
 
     .service__component p{

@@ -1,8 +1,9 @@
 .graphic__container{
+    max-width: 1220px;
     display: flex;
+    padding: 5% 0;
     align-items: center;
     justify-content: center;
-    padding: 5%;
     color: #c0c0c0;
 
 }
@@ -43,11 +44,12 @@
 @media screen and (max-width:1000px) {
     .graphic__container{
         display: block;
-        padding-right: 10%;
+        padding-right: 13%;
     }
 
     .graphic__component{
         width: 100%;
+        margin: 0 5%;
         
     }
     
